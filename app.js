@@ -60,7 +60,8 @@ choices.forEach((choice) => {
 rstBtn.addEventListener("click",() => {
     userScorePara.innerText = 0;
     comScorePara.innerText =0;
-
+    userScore=0;
+    compScore=0;
 })
 
 
