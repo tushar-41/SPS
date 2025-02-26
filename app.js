@@ -62,7 +62,8 @@ rstBtn.addEventListener("click",() => {
     comScorePara.innerText =0;
     userScore=0;
     compScore=0;
-})
+    msg.innerText="Play your move";
+});
 
 
 
