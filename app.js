@@ -4,7 +4,8 @@ let compScore = 0;
 const choices = document.querySelectorAll(".choice");
 const userScorePara = document.querySelector("#user-score");
 const comScorePara = document.querySelector("#comp-score");
-const msg = document.querySelector("#msg")
+const msg = document.querySelector("#msg");
+const rstBtn = document.querySelector("#reset-btn");
 
 const comChoice = () => {
     const options = ["paper","rock","scissors"];
@@ -55,4 +56,12 @@ choices.forEach((choice) => {
         playGame(userChoice);
     })
 });
+
+rstBtn.addEventListener("click",() => {
+    userScorePara.innerText = 0;
+    comScorePara.innerText =0;
+
+})
+
+
 

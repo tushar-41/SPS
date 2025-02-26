@@ -62,3 +62,20 @@ img{
     padding: 1rem;
     border-radius: 1rem;
  }
+
+ #reset-btn{
+    background-color: #081b31;
+    color: white;
+    font-size: 2rem;
+    display: inline;
+    padding: 1rem;
+    border-radius: 1rem;
+    margin-top: 3rem;
+    margin-left: 2rem;
+ }
+
+ .mg-container{
+    display: flex;
+    align-items: space-evenly;
+    justify-content: center;
+ }
