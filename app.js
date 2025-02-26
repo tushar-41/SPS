@@ -63,6 +63,7 @@ rstBtn.addEventListener("click",() => {
     userScore=0;
     compScore=0;
     msg.innerText="Play your move";
+    msg.style.backgroundColor = "#081b31";
 });
 
 
